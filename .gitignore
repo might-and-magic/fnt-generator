@@ -1,4 +1,5 @@
-example_fonts/*
+example_fonts/bdf/*
+example_fonts/ttf/
 
 # exception
 !example_fonts/bdf/unifont-9.0.06.bdf
