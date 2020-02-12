@@ -1,3 +1,17 @@
+example_fonts/*
+
+# exception
+!example_fonts/bdf/unifont-9.0.06.bdf
+!example_fonts/bdf/mplus_j10r.bdf
+!example_fonts/bdf/mplus_j12r.bdf
+!example_fonts/bdf/SimSun-12.bdf
+!example_fonts/bdf/SimSun-14.bdf
+!example_fonts/bdf/MingLiU-98-13.bdf
+!example_fonts/bdf/MingLiU-98-15.bdf
+
+old/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
