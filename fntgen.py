@@ -1,6 +1,6 @@
 # Might and Magic 6 7 8 and Heroes 3 FNT (font) File Generator for Multiple Languages (Python Script)
 # 
-# Copyright (c) 2020 tomchen.org
+# Copyright (c) 2020 Tom Chen (tomchen.org)
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation self.files (the "Software"), to deal
