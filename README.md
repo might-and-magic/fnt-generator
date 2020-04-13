@@ -7,7 +7,7 @@ Might and Magic 6 7 8 and Heroes 3 FNT (font) File Generator for Multiple Langua
 ### Instantiation
 
 ```python
-FntObject = FntGen(<font_file_path>)
+FntObject = FntGen(<FONT_FILE_PATH>)
 ```
 
 Example:
@@ -19,10 +19,10 @@ FntObject = FntGen('example_fonts/bdf/unifont-9.0.06.bdf')
 ### `setCharset`
 
 ```python
-FntObject.setCharset(<charset>)
+FntObject.setCharset(<CHARSET>)
 ```
 
-Set charset. `charset` is a string
+Set charset. `CHARSET` is a string
 
 * All single-byte charsets are supported, typical example:
   * `cp1252` (**default value**, for latin alphabet-based languages, e.g. en, fr, de, es, it)
@@ -39,10 +39,10 @@ FntObject.setCharset('cp1252')
 ### `setDecoration`
 
 ```python
-FntObject.setDecoration(<decoration>)
+FntObject.setDecoration(<DECORATION>)
 ```
 
-Set decoration. `decoration` is a string, it can be: *empty*, `shadow`, `black`, or `glow`
+Set decoration. `DECORATION` is a string, it can be: *empty*, `shadow`, `black`, or `glow`
 
 Example:
 
@@ -53,12 +53,12 @@ FntObject.setDecoration('shadow')
 ### `output`
 
 ```python
-FntObject.output(<file_name>, [path])
+FntObject.output(<FILE_NAME>, [PATH])
 ```
 
-Output .fnt file(s). `file_name` is a required string parameter, `path` is an optional string parameter.
+Output .fnt file(s). `FILE_NAME` is a required string parameter, `PATH` is an optional string parameter.
 
-"`<SIZE>`" in `file_name` parameter will be replaced by the final font's actual size.
+If there is any "`<SIZE>`" in `FILE_NAME` parameter, it will be replaced by the final font's actual size.
 
 For single-byte charsets, a single .fnt file is generated.
 
