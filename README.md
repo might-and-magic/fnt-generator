@@ -1,5 +1,7 @@
 # FNT Generator
 
+[![MIT License](https://img.shields.io/github/license/might-and-magic/fnt-generator)](https://github.com/might-and-magic/fnt-generator/blob/master/LICENSE "MIT License")
+
 Might and Magic 6 7 8 and Heroes 3 FNT (font) File Generator for Multiple Languages (Python Script). It uses another small library of mine: [BDF Parser](https://github.com/tomchen/bdfparser)
 
 ## Usage
